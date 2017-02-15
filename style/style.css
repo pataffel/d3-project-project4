@@ -1,0 +1,267 @@
+﻿/* FICHIER STYLE PAR JULLIEN DALLIES*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Muli);
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+/*__________________________________________________________________________*/
+/*________________________________-BALISES PRINCIPALES-____________________*/
+/*________________________________________________________________________*/
+html {
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: white;
+}
+body {
+width: 100%;
+padding: 0;
+margin: 0;
+}
+.cb {
+clear: both;
+}
+.cl {
+clear: left;
+}
+.cr {
+clear: right;
+}
+/*__________________________________________________________________________*/
+/*_________________________________________-HEADER_-_______________________*/
+/*________________________________________________________________________*/
+
+header {
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+
+/*__________________________________________________________________________*/
+/*______________________________________-NAVIGATION-_______________________*/
+/*________________________________________________________________________*/
+ul {list-style: none;
+}
+nav {
+background-color: #F0C300;
+color: white;
+height: 50px;
+padding-left: 7.85%;
+margin-bottom: 20px;
+}
+nav ul {
+list-style: none;
+margin: 0;
+margin-left: 212px;
+padding: 0;
+}
+nav li {
+float: left;
+margin-right: 10px;
+}
+nav li:hover {
+}
+nav a {
+padding: 15px 10px;
+background-color: #F0C300;
+color: white;
+text-decoration:none;
+line-height:50px;
+}
+
+nav a:hover, .en-cours {
+background-color: #FFF;
+color: #F0C300;
+text-decoration:none;
+}
+nav h1 {
+
+}
+nav li a:hover, .retour a:hover {
+
+}
+
+/*SOUS NAVIGATION*/
+
+nav ul li ul {
+ display:none;
+ }
+
+nav ul li:hover ul {
+ display:block;
+ }
+
+nav li:hover ul li {
+ float:none;
+ }
+
+nav ul li ul
+{
+list-style: none;
+margin: 0;
+margin-left: 0;
+padding: 0;
+}
+
+nav li ul {
+position:absolute;
+z-index:100;
+}
+/*__________________________________________________________________________*/
+/*_________________________________________-CONTENU-_______________________*/
+/*________________________________________________________________________*/
+
+/*_________________________________________-TITRE-_______________________*/
+
+.section-header, article {
+width: auto;
+padding: 0 5px;
+margin: 0;
+background-image: none;
+}
+h1, h2 {
+font-family: 'Muli', sans-serif;
+font-weight: normal;
+text-align: center;
+padding: 5px;
+}
+header h1 {
+margin:0;
+}
+
+/*__________________________________________________________________________*/
+/*____________________________-PARAGRAPHES ET LIENS-_______________________*/
+/*________________________________________________________________________*/
+
+a {
+color: #000;
+text-decoration: none;
+}
+a:hover {
+text-decoration:underline;
+}
+p,li a,a, ul {
+font-family: 'Muli', sans-serif;
+font-weight: normal;
+font-size: 1em;
+text-align: justify;
+}
+article p {
+	font-style:italic;
+}
+
+/*__________________________________________________________________________*/
+/*_________________________________-REGLES COMMUNES-_______________________*/
+/*________________________________________________________________________*/
+
+section {
+margin-bottom: 20px;
+background-color: white;
+}
+
+
+article h1 {
+color:#FFFFE0;
+font-family: 'Sansita', sans-serif;
+text-align: left;
+font-style: italic;
+font-size: 2em;
+line-height: 1.3em;
+background-color: #B8860B;
+padding: 2%;
+margin: 20px 0;
+overflow: auto;
+}
+#image_aside {
+text-align: center;
+}
+#image_aside p {
+font-style: italic;
+text-align: center;
+}
+#content {
+width: 85%;
+margin: auto;
+margin-top: 20px;
+padding-bottom: 40px;
+background-color: #FFF;
+border-bottom: 2px dotted #BDBDBD;
+}
+article p {
+font-family: 'Muli', sans-serif;
+margin: 10px 0;
+color: black;
+font-style: normal;
+font-size: 1.1em;
+}
+
+.retour {
+text-align:right;
+}
+.retour a {
+color: #B8860B;
+}
+
+/*__________________________________________________________________________*/
+/*_________________________________-DISCOGRAPHIE-_______________________*/
+/*________________________________________________________________________*/
+.cover_album {
+float: right;
+width: 350px;
+margin-left: 10px;
+border: 2px solid black;
+}
+.article_disco {
+min-height: 460px;
+}
+.article_disco ol li {
+font-family: 'Muli', sans-serif;
+color: black;
+font-style: normal;
+font-size: 0.9em;
+}
+
+/*__________________________________________________________________________*/
+/*_________________________________-PHOTOS-________________________________*/
+/*________________________________________________________________________*/
+.photo_left {
+width: 400px;
+float: left;
+margin: 0 10px 10px 0;
+}
+.photo_right {
+width: 400px;
+float: right;
+margin: 0 0 10px 10px;
+}
+/*__________________________________________________________________________*/
+/*_________________________________-FOOTER-________________________________*/
+/*________________________________________________________________________*/
+video
+{
+margin: 0 auto;
+display: block;
+padding: 5px;
+  width: 70%;
+position: relative;
+
+}
+
+
+
+footer {
+width: 100%;
+background-color: #F0C300;
+color: #FFF;
+padding:1%;
+margin-left:0;
+margin-right:0;
+}
+footer a {
+color: #FFF;
+text-decoration: none;
+}
+footer a:hover {
+color: #FFF;
+text-decoration:underline;
+}

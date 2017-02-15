@@ -1,0 +1,21 @@
+/*#### Colors in the page   ####*/
+
+
+/*-- #### Styles Pour La construction des pages #### */
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ol li {
+  border : 1px solid #000;
+  width : 160px;
+  margin : 6px;
+}
+
+li img {
+  width : 100%;
+}
